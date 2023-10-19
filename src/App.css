@@ -1,0 +1,89 @@
+/* Apply a CSS reset for margin and padding */
+* {
+  margin: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/* Create a container for the main content */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the house dropdown */
+.house-dropdown {
+  width: 100%;
+  background-color: #3498db;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Style the label below the dropdown */
+.label {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+/* Style the center-aligned React-D3-Tree container */
+.tree-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #dc2a2a;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.character-card {
+  /* display: contents;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 1; */
+
+  /* display: contents; */
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  /* width: 100%; */
+  background-color: #fff;
+  border: 1px solid #777;
+  z-index: 1;
+}
+
+.rd3t-label__attributes {
+  font-size: 10px !important;
+}
+
+.rd3t-label__title{
+  font-size: 15px !important;
+}
+
+.image-full{
+  height: 250px;
+}
+
+.fav-icon{
+  padding: 0%;
+  height: 25px;
+}
